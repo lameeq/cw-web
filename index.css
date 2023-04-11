@@ -290,14 +290,61 @@ padding: 20px 0;
     justify-content: space-around;
     padding-right: 18rem;
     padding-left: 18rem;
+    margin-bottom: 5rem;
+    font-family: 'Noto Serif JP', serif;
+    
 }
 
 .first_col
 {
     margin-bottom: 1rem;
     max-width: 50%;
+    margin-right: 0.5rem;
 }
 .second_col
 {
+    margin-top: 0;
+    margin-left: 0.5rem;
     max-width: 50%;
 }
+
+p{
+    margin-top: 0;
+}
+
+.strong
+{
+    margin-bottom: 1rem;
+}
+
+.banner
+{
+    background-color: #b95e15;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
+      
+    
+}
+
+.banner_text1
+{
+    text-align: center;
+}
+
+.banner_text2
+{
+    font-size: 2.5rem;
+}
+
+.big_banner
+{
+    text-align: center;
+}
+
+
