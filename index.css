@@ -3,36 +3,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
 
+
 /* Mobile screens */
+.image
+{
+    width: 100%;
+}
+
+
 .image img {
   width: 100%;
-  max-width: 360px;
+  max-width: 350px;
   position: absolute;
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);
 }
 
-@media all and (max-width: 768px) {
-    /* Tablets and small desktop screens */
-    .image img {
-      max-width: 300px;
-    }
-  }
-
-  @media all and (max-width: 992px) {
-    /* Large desktop screens */
-    .image img {
-      max-width: 300px;
-    }
-  }
-
-  @media all and (max-width: 1200px) {
-    /* Extra large desktop screens */
-    .image img {
-      max-width: 360px;
-    }
-  }
 
 html
 {
@@ -63,13 +50,15 @@ a{
 }
 header
 {
-  position: relative;
+  
   height: 100%;
+  position: relative;
   
   
 }
 .nav
 {
+    position: static;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -275,61 +264,40 @@ padding: 20px 0;
     
 }
 
-@media all and (max-width: 768px) {
-    
-    
-    .hamburger
-    {
-        display: none;
-    }
-    .bottom_arrow
-    {
-     display: none;
-    } 
-    .bottom_text{
-     padding-left: 10%;
-     font-size: 0.6rem;
-    }
-    
-    
-  }
-  
-  
-  @media all and (max-width: 992px) {
-   .bottom{
-    margin: 0;
-    padding: 0;
-    font-size: 3rem;
-   }
-   .bottom_text
-   {
-    font-size: 112rem;
-    padding: 0;
-    margin: 0;
-    margin-right: 4%;
-    
-   }
-    .upper_paragraph .gourmet
-    {
-        font-size: 4rem;
-    }
 
-    .hamburger
-    {
-        display: none;
-    }
-   .bottom_arrow
-   {
-    display: none;
-   } 
-   .bottom_text{
-    padding-left: 10%;
-    font-size: 0.9rem;
-   }
-   
-   
-  }
-  
-  @media all and (max-width: 1200px) {
-    
-  }
+/* INDEX2 PAGE */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant&display=swap');
+
+.chef_name
+{
+    margin-top: 1.5rem;
+    font-family: 'Cormorant Infant', serif;
+    font-size: 2rem;
+}
+
+.cursive_name
+{
+    font-family: 'Dancing Script', cursive;  
+    margin-right: 0.5rem;
+    font-size: 2.5rem;
+}
+
+.cols
+{
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    padding-right: 18rem;
+    padding-left: 18rem;
+}
+
+.first_col
+{
+    margin-bottom: 1rem;
+    max-width: 50%;
+}
+.second_col
+{
+    max-width: 50%;
+}
