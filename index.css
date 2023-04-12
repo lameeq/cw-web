@@ -268,6 +268,7 @@ padding: 20px 0;
 /* INDEX2 PAGE */
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
 .chef_name
 {
@@ -347,4 +348,75 @@ p{
     text-align: center;
 }
 
+.gallery_block {
+    display: flex;
+}
 
+.left-wing {
+    width: 50%;
+}
+
+.left-wing img {
+    width: 100%;
+    height: 100%;
+}
+
+.right-wing {
+    position: relative;
+    width: 50%;
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+  
+.white {
+    position: relative;
+    background-color: white;
+    height: 30rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    font-size: 3rem;
+}
+
+.white p {
+    margin: 0;
+    padding: 0;
+}
+
+.white_photo {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+.white_photo img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.galerry_recipy {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    color: white;
+}
+
+.galerry_recipy p {
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
