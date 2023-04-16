@@ -9,25 +9,31 @@
 </head>
 <body>
     <header>
-        <div class="nav" id="nav">
-            <div class="logo">
-                <a href="index.html"><img src="logo-d_c96cd777.svg" alt="#logotype"></a>
+        <div class="top">
+            <div class="navigation">
+                <button class="hamburger" onclick="show()">
+                    <div id="bar1" class="bar"></div>
+                    <div id="bar2" class="bar"></div>
+                    <div id="bar3" class="bar"></div>
+                </button>
+        
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index2.html">About</a></li>
+                        <li><a href="index3.html">Gallery</a></li>
+                        <li><a>Contact</a></li>
+                    </ul>
+                </nav>
+        
             </div>
-            <div class = "menu">
-                <div class="lang">
-                    <p>EN</p>
-                </div>
-                
-                <div class="hamburger">
-                    <div class="hamburger_menu">
-                        <p>MENU</p>
-                    </div>
-                    <div class="hamburger_icon">
-                        <a href="#"><img src="ham.svg" alt="#"></a>
-                    </div>
-                </div>
-            </div>
+            <a href="index.html"><img src="logo-d_c96cd777.svg" class="logo"></a>
         </div>
+       
+
+        
+
+        <script src="script.js"></script>
         <div class="image">
             <img src="chef2.jpg" alt="#">
         </div>
@@ -101,7 +107,7 @@
                 <p>OUR HERITAGE IN ST. MORITZ AND<br> THE CORVIGLIA AREA</p>
             </div>
             <div class="arrow">
-                <img src="arrow.svg">
+                <a href="#"><img src="arrow.svg"></a>
             </div>
         </div>
     </div>
@@ -118,7 +124,7 @@
 
                 </div>
                 <div class="white_photo">
-                    <a href="#"><img src="gallery_7.jpg" alt="#"></a>
+                    <a href="index3.html"><img src="gallery_7.jpg" alt="gallery"></a>
                 </div>
             </div>
         </div>    
@@ -138,7 +144,7 @@
             </div>
             
             <div class="bottom_arrow">
-                <a href="#nav"><img src="arrow2.svg" alt="#"></a>
+                <a href="#top"><img src="arrow2.svg" alt="#"></a>
             </div>
         </div>
     </footer>
