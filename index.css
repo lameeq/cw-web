@@ -19,6 +19,31 @@
     {
         display: none;
     }
+    .upper_paragraph .gourmet
+   {
+    font-size: 3.5rem;
+   }
+   .upper_paragraph .based
+   {
+    font-size: 4rem;
+   }
+   .upper_paragraph .ukraine
+   {
+    font-size: 4rem;
+   }
+   .upper_paragraph .title_paragraph
+   {
+    font-size: 0.7rem;
+    text-align: center;
+   }
+   .middle_paragraph .t1
+   {
+    font-size: 0.7rem;
+   }
+   .bottom_paragraph
+   {
+    font-size: 0.7rem;
+   }
   }
   
   /* Styles for screens between 768px and 1024px */
@@ -36,10 +61,7 @@
     {
         display: none;
     }
-    .gourmet
-    {
-        font-size: 1rem;
-    }
+   
 
     
   }
