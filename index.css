@@ -5,6 +5,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Schibsted+Grotesk&display=swap');
 
 @media all and (max-width: 600px) {
+    .top .logo
+    {
+        position: relative;
+    }
     .navigation
     {
         display: none;
@@ -120,6 +124,83 @@
    .title_3 .sub_title_3
    {
     font-size: 2rem;
+   }
+
+   .gallery-container .block2 
+   {    
+    display: block;
+    margin: 0;
+    
+   }
+   .block2 .vareniki
+   {
+    width: 100%;
+    height: 27rem;
+    margin-bottom: 5rem;
+   }
+   .block2 .draniki
+   {
+    width: 100%;
+    height: 27rem;
+    margin-bottom: 5rem;
+   }
+   .gallery-container .block3
+   {
+    display: block;
+    margin: 0;
+   }
+   .block3 .kutya
+   {
+    width: 100%;
+    height: 27rem;
+    margin-bottom: 5rem;
+   }
+   .block3 .cabbage
+   {
+    width: 100%;
+    height: 27rem;
+    margin-bottom: 5rem;
+   }
+   .gallery-container .block4
+   {
+    display: block;
+    margin: 0;
+   }
+
+   .block4 .potato
+   {
+    width: 100%;
+    height: 27rem;
+    margin-bottom: 5rem;
+   }
+   .block4 .sirniki
+   {
+    width: 100%;
+    height: 27rem;
+    margin-bottom: 5rem;
+   }
+   .gallery-container .block1
+   {
+    display: block;
+    margin: 0;
+   }
+   .block1 .bograch
+   {
+    width: 100%;
+    height: 27rem;
+    margin-bottom: 5rem;
+   }
+   .block1 .shpundrya
+   {
+    width: 100%;
+    height: 27rem;
+    margin-bottom: 5rem;
+   }
+   .block1 .heck
+   {
+    width: 100%;
+    height: 27rem;
+    margin-bottom: 5rem;
    }
 }
 
