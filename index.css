@@ -4,14 +4,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Schibsted+Grotesk&display=swap');
 
-@media only screen and (max-width: 600px) {
+@media all and (max-width: 600px) {
     .navigation
     {
         display: none;
     }
     .upper_paragraph .gourmet
     {
-        font-size: 3rem
+        font-size: 2.5rem
+    }
+    .upper_paragraph .title_paragraph
+    {
+        font-size: 0.9rem;
     }
     .upper_paragraph .based
     {
@@ -29,6 +33,34 @@
     {
         font-size: 0.7rem;
     }
+   .middle_paragraph .t1 
+   {
+    font-size: 0.7rem;
+   }
+   .arrow{
+    margin-top: -3rem;
+   }
+   .bottom .bottom_text
+   {
+    margin-top: -5rem;
+    font-size: 0.7rem;
+   }
+   .bottom_paragraph
+   {
+    font-size: 0.9rem;
+    margin-top: -2rem;
+   }
+   .discover
+   {
+    font-size: 0.9rem;
+   }
+   .arrow img
+   {
+        width: 5rem;
+        height: 5rem;
+   }
+
+
 }
 
 
