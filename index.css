@@ -59,8 +59,50 @@
         width: 5rem;
         height: 5rem;
    }
+   /*second page*/
+   .left-wing
+   {
+    display: none;
+   }
+   body .cols
+   {
+    padding-left:1rem;
+    padding-right: 1rem;
+    margin: 0;
+    display: block;
+   }
+   .cols .first_col
+   {
+   max-width: 100%;
+   }
 
+   .cols .second_col
+   {
+   max-width: 100%;
+   }
+   .banner
+   {
+    margin-top: 2rem;
+   }
+   .big_banner .banner_text2
+   {
+    font-size: 1.7rem;
+   }
+   .arrow
+   {
+    margin-top: 2rem;
+   }
+   .gallery_block .right-wing
+   {
+    width: 100%;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+   }
 
+   .white
+   {
+    margin-bottom: 2rem;
+   }
 }
 
 
