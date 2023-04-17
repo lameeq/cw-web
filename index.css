@@ -4,7 +4,50 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Schibsted+Grotesk&display=swap');
 
+/* Styles for screens smaller than 768px */
+@media (max-width: 767px) {
+    /* Your CSS code for small screens goes here */
+    .navigation
+    {
+        display: none;
+    }
+    .bottom_arrow
+    {
+        display: none;
+    }
+    .bottom_arrow img
+    {
+        display: none;
+    }
+  }
+  
+  /* Styles for screens between 768px and 1024px */
+  @media (min-width: 768px) and (max-width: 1024px) {
+    /* Your CSS code for medium screens goes here */
+    .navigation
+    {
+        display: none;
+    }
+    .bottom_arrow
+    {
+        display: none;
+    }
+    .bottom_arrow img
+    {
+        display: none;
+    }
+    .gourmet
+    {
+        font-size: 1rem;
+    }
 
+    
+  }
+  
+  /* Styles for screens larger than 1024px */
+  @media (min-width: 1025px) {
+    /* Your CSS code for large screens goes here */
+  }
 
 /* Mobile screens */
 
@@ -798,3 +841,16 @@ p{
     align-items: center;
     
 }
+
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all 2s ease;
+  }
+  
+.reveal.active{
+    transform: translateY(0px);
+    opacity: 1;
+}
+
