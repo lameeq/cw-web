@@ -79,6 +79,7 @@
    .cols .second_col
    {
    max-width: 100%;
+   margin-left: 0rem;
    }
    .banner
    {
@@ -95,13 +96,17 @@
    .gallery_block .right-wing
    {
     width: 100%;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
    }
 
-   .white
+   .right-wing .white
    {
-    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right:1rem;
+    margin-bottom: 3rem;
    }
 }
 
