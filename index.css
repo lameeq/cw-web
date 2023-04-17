@@ -108,6 +108,19 @@
     padding-right:1rem;
     margin-bottom: 3rem;
    }
+
+   .bottom_arrow_w img
+   {
+    display: none;
+   }
+   .container .title_3
+   {
+    font-size: 3.5rem;
+   }
+   .title_3 .sub_title_3
+   {
+    font-size: 2rem;
+   }
 }
 
 
